@@ -1,7 +1,7 @@
 const mongoose = require("mongoose")
 
 
-mongoose.connect('mongodb+srv://abhinav:Qwerty857@cluster0.ldvtp.mongodb.net/mongo-with-jwtttt')
+mongoose.connect('Put your MongoDB url')
 
 
 const AdminSchema = new mongoose.Schema({

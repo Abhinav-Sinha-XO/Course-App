@@ -1,6 +1,8 @@
 const jwt = require("jsonwebtoken")
 const { JWT_secret } = require('../context')
 
+
+
 function adminmiddleware(req,res,next){
   const token = req.headers.authorization
   const words = token.split(" ");
